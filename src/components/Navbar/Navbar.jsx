@@ -22,14 +22,14 @@ function Navbar() {
         <img className="nav-img" src={NavBar} alt="Navbar" />
       </div>
 
-      <div id="myNav" class="overlay">
+      <div id="myNav" className="overlay">
         <img
           className="nav-img closebtn"
           src={NavCross}
           onClick={closeNav}
           alt="closeNav"
         />
-        <div class="overlay-content">
+        <div className="overlay-content">
           <a href="/">Home</a>
           <a href="/">About</a>
           <a href="/">Services</a>

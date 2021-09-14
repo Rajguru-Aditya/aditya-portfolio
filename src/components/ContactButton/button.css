@@ -1,0 +1,13 @@
+.button {
+  width: 60%;
+  margin-top: 50px;
+  border: 10px solid #185adb;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  padding: 20px 0;
+}
