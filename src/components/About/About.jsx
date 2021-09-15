@@ -18,16 +18,6 @@ function About() {
           reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
           pariatur.
         </p>
-        <div className="about-contact">
-          <p>Let’s work Together!</p>
-          <p>
-            Ping me an{" "}
-            <a href="/" id="email">
-              email
-            </a>{" "}
-            or DM me on social media. Always up for a chat.
-          </p>
-        </div>
         <div className="social-icons">
           <a href="/">
             <img src={linkedIn} alt="linkedin" />

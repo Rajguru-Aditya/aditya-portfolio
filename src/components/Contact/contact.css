@@ -1,20 +1,16 @@
-.about {
+.contact {
   height: 100%;
   width: 100%;
   background-color: #151515;
   display: flex;
+  flex-direction: column;
   text-align: center;
+  align-items: center;
   justify-content: center;
   padding: 100px 0;
 }
 
-.about-container {
-  width: 70%;
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
-}
-
-#about-title {
+.contact-title {
   font-size: 96px;
   background-image: -webkit-gradient(
     linear,
@@ -30,10 +26,19 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-#about-text {
-  font-size: 30px;
-  margin: 100px 0;
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10% 0;
+  width: 80%;
+}
+
+.contact-text {
+  font-size: 40px;
   text-align: start;
+  width: 40%;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -44,10 +49,24 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  font-family: "Poppins", sans-serif;
+}
+
+#email {
+  color: #a9ffa1;
+  cursor: url(../images/pointer.png), auto;
+}
+
+.contact-img-container {
+  width: 40%;
+}
+
+#contact-img {
+  width: 100%;
 }
 
 .social-icons {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .social-icons a {

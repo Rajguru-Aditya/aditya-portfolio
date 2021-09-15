@@ -10,7 +10,6 @@ function Home() {
     <div className="home">
       <div className="home-text-container">
         <div className="intro-container">
-          {/* <p id="hello">Hello,</p> */}
           <div id="hello">
             <Typewriter
               options={{

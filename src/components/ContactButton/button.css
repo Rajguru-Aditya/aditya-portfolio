@@ -2,7 +2,7 @@
   transition: all 0.5s ease;
   width: 60%;
   margin-top: 50px;
-  border: 10px solid #185adb;
+  border: 10px solid #67ff59;
   color: #fff;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -12,10 +12,10 @@
   font-size: 30px;
   padding: 20px 0;
   outline: none;
-  box-shadow: -10px 10px #000;
+  box-shadow: -10px 10px 10px #000;
 }
 
 .button:hover {
-  background-color: #185adb;
+  background-color: #67ff59;
   transform: rotate(10deg);
 }

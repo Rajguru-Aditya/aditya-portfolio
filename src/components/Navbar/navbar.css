@@ -5,6 +5,7 @@
 }
 .nav-img {
   height: 40px;
+  cursor: url(../images/pointer.png), auto;
 }
 
 .overlay {
