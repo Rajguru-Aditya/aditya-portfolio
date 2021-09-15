@@ -1,0 +1,34 @@
+.list-box {
+  height: 750px;
+  background-color: #fff;
+  width: 400px;
+}
+
+.title-box {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a9ffa1;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  color: #151515;
+  border-radius: 0 0 50% 50%;
+  margin-bottom: 50px;
+}
+
+.content-box {
+  color: #151515;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  padding: 10px 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#checkmark {
+  height: 50px;
+  margin-right: 10px;
+}
