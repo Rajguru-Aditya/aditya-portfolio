@@ -43,7 +43,9 @@
 }
 
 #name {
-  font-weight: bold;
+  font-weight: 700;
+  -webkit-text-stroke: 1px #fff;
+  color: #151515;
 }
 
 #role {
