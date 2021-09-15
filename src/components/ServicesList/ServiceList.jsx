@@ -1,6 +1,7 @@
 import React from "react";
 import "./serviceList.css";
 import Checkmark from "../images/check-mark.png";
+import Tilt from "react-tilt";
 
 function ServiceList(props) {
   const serviceCreator = (service) => {
@@ -13,7 +14,7 @@ function ServiceList(props) {
   };
 
   return (
-    <div className="list-box">
+    <Tilt className="Tilt list-box" options={{ max: 25 }}>
       <div className="title-box">
         <header>{props.title}</header>
       </div>
@@ -22,7 +23,7 @@ function ServiceList(props) {
         <p>Service Name</p>
       </div> */}
       {props.services.map(serviceCreator)}
-    </div>
+    </Tilt>
   );
 }
 

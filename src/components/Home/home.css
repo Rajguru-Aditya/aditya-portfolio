@@ -27,7 +27,6 @@
   background-clip: text;
   font-weight: light;
 }
-
 #name-text {
   font-size: 60px;
   background-image: -webkit-gradient(
@@ -43,9 +42,27 @@
 }
 
 #name {
+  transition: all 1s ease;
   font-weight: 700;
   -webkit-text-stroke: 1px #fff;
   color: #151515;
+  z-index: 10;
+}
+
+#name:hover {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    /* color-stop(0, rgba(255, 255, 255, 0.5)),*/ color-stop(0, #f037a5),
+    color-stop(1, rgba(240, 55, 165, 0.5))
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  text-shadow: -5px 5px #0cecdd;
 }
 
 #role {
@@ -64,6 +81,7 @@
 
 .img-container {
   height: 70%;
+  box-shadow: -10px 10px 50px #000;
 }
 
 #aditya-img {
