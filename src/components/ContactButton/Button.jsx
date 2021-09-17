@@ -3,9 +3,11 @@ import "./button.css";
 
 function Button(props) {
   return (
-    <div className="button">
-      <p>{props.text}</p>
-    </div>
+    <a href="/">
+      <div className="button">
+        <p>{props.text}</p>
+      </div>
+    </a>
   );
 }
 

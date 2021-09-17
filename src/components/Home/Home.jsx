@@ -25,7 +25,9 @@ function Home() {
           </p>
           <br />
           <p id="role">Web Developer and designer from Mumbai, India</p>
-          <Button text="Get In Touch" />
+          <div className="home-button-container">
+            <Button text="Get In Touch" />
+          </div>
         </div>
       </div>
       {/* <div className="img-container"> */}

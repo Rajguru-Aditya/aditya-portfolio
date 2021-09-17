@@ -1,12 +1,13 @@
 import React from "react";
 import "./skills.css";
 import TopLoader from "react-top-loader";
+import Button from "../ContactButton/Button";
 
 function Skills() {
   return (
     <div className="skills">
       <div className="skills-container">
-        <h1 id="skills-title">My Skills</h1>
+        <header id="skills-title">My Skills</header>
 
         <div className="skills-content">
           <div id="skills-display">
@@ -66,6 +67,9 @@ function Skills() {
             <span style={{ fontWeight: "700" }}>conversion-focused</span>{" "}
             websites is my forte.
           </div>
+        </div>
+        <div className="skills-button-container">
+          <Button text="See My Work" />
         </div>
       </div>
     </div>

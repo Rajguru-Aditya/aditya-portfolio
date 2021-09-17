@@ -10,14 +10,14 @@ function Contact() {
   return (
     <div className="contact">
       <div className="contact-title">
-        <header>Let's Work Together</header>
+        <header>Let's Work</header>
+        <header>Together</header>
       </div>
       <div className="contact-content">
         <div className="contact-img-container">
           <img id="contact-img" src={helloImg} alt="" />
         </div>
         <div className="contact-text">
-          <p>Let’s work Together!</p>
           <p>
             Ping me an{" "}
             <a href="/" id="email">

@@ -5,8 +5,8 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  flex-wrap: wrap;
   background-color: #151515;
+  background-image: url(../images/batthern.png);
 }
 
 .home-text-container {
@@ -77,6 +77,7 @@
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+  padding: 0 0 20px;
 }
 
 .img-container {
@@ -86,4 +87,81 @@
 
 #aditya-img {
   height: 100%;
+}
+
+.home-button-container {
+  margin-top: 20px;
+  width: 50%;
+}
+
+@media screen and (max-width: 980px) {
+  #hello {
+    font-size: 20px;
+  }
+
+  #name-text {
+    font-size: 40px;
+  }
+
+  #name {
+    -webkit-text-stroke: 0.4px #fff;
+  }
+
+  #role {
+    font-size: 30px;
+    padding: 0 0 20px;
+  }
+  .img-container {
+    height: 50%;
+  }
+
+  #aditya-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 30%;
+  }
+
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+  }
+
+  .home-text-container {
+    width: 100%;
+  }
+
+  #hello {
+    font-size: 16px;
+  }
+
+  #name-text {
+    font-size: 32px;
+  }
+
+  #name {
+    -webkit-text-stroke: 0.4px #fff;
+  }
+
+  #role {
+    font-size: 26px;
+    padding: 0 20px 20px;
+  }
+  .img-container {
+    height: 50%;
+    width: 70%;
+  }
+
+  #aditya-img {
+    width: 100%;
+  }
 }

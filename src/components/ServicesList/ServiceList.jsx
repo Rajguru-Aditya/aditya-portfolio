@@ -6,7 +6,7 @@ import Tilt from "react-tilt";
 function ServiceList(props) {
   const serviceCreator = (service) => {
     return (
-      <div className="content-box">
+      <div key={service} className="content-box">
         <img id="checkmark" src={Checkmark} alt="Checkmark" />
         <p>{service}</p>
       </div>
@@ -18,10 +18,6 @@ function ServiceList(props) {
       <div className="title-box">
         <header>{props.title}</header>
       </div>
-      {/* <div className="content-box">
-        <img id="checkmark" src={Checkmark} alt="Checkmark" />
-        <p>Service Name</p>
-      </div> */}
       {props.services.map(serviceCreator)}
     </Tilt>
   );

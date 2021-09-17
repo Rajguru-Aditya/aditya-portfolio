@@ -2,6 +2,7 @@
   position: fixed;
   top: 20px;
   left: 20px;
+  z-index: 10;
 }
 .nav-img {
   height: 40px;
@@ -42,6 +43,7 @@
 .overlay a:hover,
 .overlay a:focus {
   color: #ffffff;
+  cursor: url(../images/pointer.png), auto;
 }
 
 .overlay .closebtn {
@@ -49,18 +51,28 @@
   top: 20px;
   left: 20px;
   background: none;
-  cursor: pointer;
+  cursor: url(../images/pointer.png), auto;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 650px) {
+  .navbar {
+    top: 10px;
+    left: 10px;
+  }
+
+  .nav-img {
+    height: 20px;
+  }
+
   .overlay {
     overflow-y: auto;
+    width: 100vw;
   }
   .overlay a {
-    font-size: 20px;
+    font-size: 30px;
   }
   .overlay .closebtn {
-    font-size: 40px;
+    height: 20px;
     top: 15px;
     right: 35px;
   }
