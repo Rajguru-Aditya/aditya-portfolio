@@ -1,7 +1,8 @@
 .about {
   height: 100%;
   width: 100%;
-  background-color: #151515;
+  background-color: #0d0022;
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
   display: flex;
   text-align: center;
   justify-content: center;
@@ -20,8 +21,8 @@
     linear,
     left top,
     left bottom,
-    color-stop(0, rgba(255, 255, 255, 0.2)),
-    color-stop(1, rgba(255, 255, 255, 0))
+    color-stop(0, rgba(255, 255, 255, 0.5)),
+    color-stop(1, rgba(255, 255, 255, 0.05))
   );
   color: transparent;
   -webkit-background-clip: text;

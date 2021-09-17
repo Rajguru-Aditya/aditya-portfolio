@@ -55,7 +55,7 @@ function Skills() {
                 progress={0.5}
                 fixed={false}
                 backgroundColor="#fff"
-                color="#FFB6B6"
+                color="#66ff43"
                 thickness={10}
               />
             </div>

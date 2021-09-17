@@ -24,7 +24,11 @@ function Home() {
             I'm <span id="name">Aditya Rajguru</span>
           </p>
           <br />
-          <p id="role">Web Developer and designer from Mumbai, India</p>
+          <p id="role">
+            Web <span style={{ fontWeight: "700" }}>Developer</span> and{" "}
+            <span style={{ fontWeight: "700" }}>designer</span> from Mumbai,
+            India
+          </p>
           <div className="home-button-container">
             <Button text="Get In Touch" />
           </div>

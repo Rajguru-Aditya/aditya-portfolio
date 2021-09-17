@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import NavBar from "../images/navbarPortfolio.png";
+import NavBar from "../images/NavbarPink.svg";
 import NavCross from "../images/navbarcross.png";
 
 function Navbar() {

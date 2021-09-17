@@ -11,10 +11,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #a9ffa1;
+  background-color: #f037a5;
   font-family: "Ubuntu", sans-serif;
   font-size: 40px;
-  color: #151515;
+  color: #fff;
   border-radius: 0 0 50% 50%;
   margin-bottom: 50px;
 }

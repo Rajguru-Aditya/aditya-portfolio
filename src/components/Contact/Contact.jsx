@@ -1,6 +1,6 @@
 import React from "react";
 import "./contact.css";
-import helloImg from "../images/helloImg.svg";
+import helloImg from "../images/helloPink.svg";
 import linkedIn from "../images/linkedin1.png";
 import instagram from "../images/instagram1.png";
 import twitter from "../images/twitter1.png";

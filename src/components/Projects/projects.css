@@ -1,7 +1,8 @@
 .projects {
   height: 100%;
   width: 100%;
-  background-color: #151515;
+  background-color: #0d0022;
+  background-image: url("https://www.transparenttextures.com/patterns/stardust.png");
   display: flex;
   text-align: center;
   justify-content: center;
@@ -22,8 +23,8 @@
     linear,
     left top,
     left bottom,
-    color-stop(0, rgba(255, 255, 255, 0.2)),
-    color-stop(1, rgba(255, 255, 255, 0))
+    color-stop(0, rgba(255, 255, 255, 0.5)),
+    color-stop(1, rgba(255, 255, 255, 0.05))
   );
   color: transparent;
   -webkit-background-clip: text;
@@ -53,7 +54,7 @@
 
 .project-img {
   height: 100%;
-  object-fit: contain;
+  width: 100%;
   cursor: url(../images/pointer.png), auto;
 }
 
@@ -111,8 +112,9 @@
 }
 
 .project-btn {
+  font-size: 18px;
   transition: all 0.5s ease;
-  border: 2px solid #67ff59;
+  border: 1px solid #fff;
   background: none;
   border-radius: 50px;
   color: #fff;
@@ -123,18 +125,37 @@
   cursor: url(../images/pointer.png), auto;
 }
 
-.project-btn:hover {
-  background-color: #67ff59;
-  transform: rotate(10deg);
+.project-btn:after {
+  content: "";
+  background-color: #f037a5;
+  width: 100%;
+  border-radius: 50px;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.project-btn:hover:after {
+  top: 0px;
+  left: 0px;
 }
 
 .btn-left {
-  left: 10px;
+  left: 5px;
 }
 
 .btn-right {
-  right: 10px;
+  right: 5px;
 }
+
+/* @media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+} */
 
 @media screen and (max-width: 650px) {
   .projects-title {
