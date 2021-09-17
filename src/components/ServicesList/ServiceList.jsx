@@ -1,6 +1,6 @@
 import React from "react";
 import "./serviceList.css";
-import Checkmark from "../images/check-mark.png";
+import Checkmark from "../images/check-markPink.png";
 import Tilt from "react-tilt";
 
 function ServiceList(props) {

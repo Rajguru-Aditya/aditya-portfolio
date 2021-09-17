@@ -14,13 +14,13 @@ function Skills() {
             <div className="skill-set">
               <p className="skill-title-text">Web design</p>
               <TopLoader
-                style={{ borderRadius: "50px" }}
                 show
                 progress={0.7}
                 fixed={false}
                 backgroundColor="#fff"
                 color="#FA5151"
                 thickness={10}
+                style={{ borderRadius: "50px" }}
               />
             </div>
             <div className="skill-set">

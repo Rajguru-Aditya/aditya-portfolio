@@ -1,6 +1,6 @@
 import React from "react";
 import "./projects.css";
-import projectImg from "../images/bakugo.jpg";
+// import projectImg from "../images/bakugo.jpg";
 
 function Projects(props) {
   //   const projectCreator = (project) => {
@@ -10,6 +10,11 @@ function Projects(props) {
   //       </div>
   //     );
   //   };
+
+  const placeholderTxt = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  laboris nisi ut`;
 
   return (
     <div className="projects">
@@ -54,7 +59,7 @@ function Projects(props) {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img
-                  src={projectImg}
+                  src="https://user-images.githubusercontent.com/77228474/124073185-6ff4e200-da5f-11eb-841c-2d9e86f19417.png"
                   alt="Avatar"
                   className="project-img"
                   //   style={{ width: "300px", height: "300px" }}
@@ -63,10 +68,7 @@ function Projects(props) {
               <div className="flip-card-back">
                 <h1 className="project-name">Project 1</h1>
                 <p className="project-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut
+                  {placeholderTxt.substring(0, 120) + "..."}
                 </p>
                 <button className="project-btn btn-left">Project</button>
                 <button className="project-btn btn-right">Code</button>
@@ -79,7 +81,7 @@ function Projects(props) {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img
-                  src={projectImg}
+                  src="https://user-images.githubusercontent.com/77228474/123539556-f9eb3500-d757-11eb-9186-03ba81a35976.png"
                   alt="Avatar"
                   className="project-img"
                   //   style={{ width: "300px", height: "300px" }}
@@ -88,10 +90,7 @@ function Projects(props) {
               <div className="flip-card-back">
                 <h1 className="project-name">Project 1</h1>
                 <p className="project-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut
+                  {placeholderTxt.substring(0, 120) + "..."}
                 </p>
                 <button className="project-btn btn-left">Project</button>
                 <button className="project-btn btn-right">Code</button>
@@ -104,7 +103,7 @@ function Projects(props) {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img
-                  src={projectImg}
+                  src="https://user-images.githubusercontent.com/77228474/110441509-dd12ef00-80df-11eb-8cdd-a60a0cc65c87.png"
                   alt="Avatar"
                   className="project-img"
                   //   style={{ width: "300px", height: "300px" }}
@@ -113,10 +112,7 @@ function Projects(props) {
               <div className="flip-card-back">
                 <h1 className="project-name">Project 1</h1>
                 <p className="project-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut
+                  {placeholderTxt.substring(0, 120) + "..."}
                 </p>
                 <button className="project-btn btn-left">Project</button>
                 <button className="project-btn btn-right">Code</button>
@@ -129,7 +125,7 @@ function Projects(props) {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img
-                  src={projectImg}
+                  src="https://user-images.githubusercontent.com/77228474/123503021-e6fc3600-d66d-11eb-995a-74243a584a83.png"
                   alt="Avatar"
                   className="project-img"
                   //   style={{ width: "300px", height: "300px" }}
@@ -138,10 +134,7 @@ function Projects(props) {
               <div className="flip-card-back">
                 <h1 className="project-name">Project 1</h1>
                 <p className="project-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut
+                  {placeholderTxt.substring(0, 120) + "..."}
                 </p>
                 <button className="project-btn btn-left">Project</button>
                 <button className="project-btn btn-right">Code</button>
@@ -154,7 +147,7 @@ function Projects(props) {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img
-                  src={projectImg}
+                  src="https://user-images.githubusercontent.com/77228474/122921184-d30bb800-d37f-11eb-8d34-345dbda2e36f.png"
                   alt="Avatar"
                   className="project-img"
                   //   style={{ width: "300px", height: "300px" }}
@@ -163,10 +156,7 @@ function Projects(props) {
               <div className="flip-card-back">
                 <h1 className="project-name">Project 1</h1>
                 <p className="project-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut
+                  {placeholderTxt.substring(0, 120) + "..."}
                 </p>
                 <button className="project-btn btn-left">Project</button>
                 <button className="project-btn btn-right">Code</button>
@@ -179,7 +169,7 @@ function Projects(props) {
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img
-                  src={projectImg}
+                  src="https://user-images.githubusercontent.com/77228474/122635397-58356980-d101-11eb-8961-2211e71c1596.png"
                   alt="Avatar"
                   className="project-img"
                   //   style={{ width: "300px", height: "300px" }}
@@ -188,10 +178,7 @@ function Projects(props) {
               <div className="flip-card-back">
                 <h1 className="project-name">Project 1</h1>
                 <p className="project-desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut
+                  {placeholderTxt.substring(0, 120) + "..."}
                 </p>
                 <button className="project-btn btn-left">Project</button>
                 <button className="project-btn btn-right">Code</button>
